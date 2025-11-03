@@ -1,0 +1,6 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:bs="/bootstrap5" xmlns:cov="/coverage" xmlns:c="/charts" xmlns:l="/lib/layout">
+    <l:run-subpage>
+        Hello!
+    </l:run-subpage>
+</j:jelly>

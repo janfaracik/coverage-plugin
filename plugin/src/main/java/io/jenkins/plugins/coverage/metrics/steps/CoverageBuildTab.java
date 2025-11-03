@@ -28,8 +28,6 @@ public class CoverageBuildTab extends Tab {
 
     @Override
     public String getUrlName() {
-        var coverageBuildAction = object.getAction(CoverageBuildAction.class);
-
-        return coverageBuildAction.getUrlName();
+        return "coverage-report";
     }
 }
